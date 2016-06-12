@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#18ffff"
+    android:background="@color/light_blue"
     >
 <LinearLayout
     android:layout_width="wrap_content"
@@ -26,75 +26,23 @@
         android:gravity="center"
         android:textColor="@android:color/black"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/popular_movies"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/popular_movies" />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/stock_hawk"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/stock_hawk" />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/build_it_bigger"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
-        android:textColor="@android:color/white"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/build_it_bigger"/>
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/material_app"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
-        android:textColor="@android:color/white"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/material_app"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/ubiquitous"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:layout_marginBottom="16dp"
-        android:textColor="@android:color/white"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/ubiquitous" />
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/capstone"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:background="#2E3D49"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"
-        android:onClick="displayApp"
-        android:textAllCaps="true"/>
+        style="@style/MyUdacityApps"
+        android:text="@string/capstone" />
 </LinearLayout>
     </FrameLayout>
